@@ -63,7 +63,7 @@ div {
 
 }
 
-.blue + h2 {
+.blue h2 { 
     color: #c4c4c4
 }
 
@@ -79,13 +79,18 @@ div {
 
 
 .green {
-    background-color: #00EB00; 
+    background-color: #008500; 
     text-align: left; 
     margin-right: 50px; 
     border-top: 2px solid; 
     border-right: 5px solid; 
     color: #000; 
 }
+
+.green p{
+    color: white;
+}
+
 
 footer {
     background-image: linear-gradient(to right, #000000, #0000ff 25%, #0066ff 70%, #000000);
@@ -95,5 +100,5 @@ footer {
 footer p {
     font-size: 20px; 
     text-align: right; 
-    padding: 15px, 15px, 15px, 0px; 
+    padding: 15px 15px 15px 0px;
 }
